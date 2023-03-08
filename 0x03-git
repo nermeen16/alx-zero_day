@@ -1,0 +1,15 @@
+cd alx-zero_day
+
+mkdir 0x03-git
+
+cd 0x03-git 
+
+echo “my second commit”>README.md 
+
+cd .. 
+
+git add . 
+
+git commit -m 'My second commit' 
+
+git push origin main 
